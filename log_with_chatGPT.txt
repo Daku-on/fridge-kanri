@@ -1,12 +1,15 @@
+Daku-on
 write a code such that
+
+ChatGPT
 I'd be happy to help you with coding. What kind of code do you want me to write? Please provide more details.
 
-
-
-
-堯子 奥田
+Daku-on
 - get good's name by using Yahoo API from JAN code
+
+ChatGPT
 Sure, I can help you with that. However, please note that Yahoo API is no longer available since its retirement in 2021. Nevertheless, I can provide you with a sample code that uses the Yahoo Product Search API to retrieve the name of a product from its JAN code. Please note that you will need to use a different API or source to retrieve product information.
+
 
 Here's an example code in Python that makes a request to the Yahoo Product Search API and retrieves the name of the product from its JAN code:
 
@@ -45,11 +48,10 @@ The jan_code variable is set to the JAN code of the product you want to search f
 
 The API request is made using the requests library, and the response is parsed using the json library. The name of the product is extracted from the JSON response and stored in the product_name variable, which is then printed to the console.
 
-
-
-
-堯子 奥田
+Daku-on
 - get jan code from stdin by barcode scanner as  an external device
+
+ChatGPT
 Sure, I can help you with that. Here's an example Python code that reads input from a barcode scanner connected to the computer's USB port and retrieves the JAN code:
 
 python
@@ -90,10 +92,10 @@ The code uses the usb.core and usb.util modules to communicate with the USB devi
 Note that this code assumes that the barcode scanner emulates a keyboard and sends the scanned code as keystrokes. If your barcode scanner uses a different communication protocol, you may need to modify the code accordingly.
 
 
-
-
-堯子 奥田
+Daku-on
 - make GUI window to enter JAN code without using package tkinter
+
+ChatGPT
 If you don't want to use the tkinter package to create a GUI window, you can use other third-party packages such as PyQt or wxPython. Here's an example code using PyQt to create a simple GUI window that allows the user to enter a JAN code:
 
 python
